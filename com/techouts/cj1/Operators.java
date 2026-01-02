@@ -1,4 +1,4 @@
-package cj1;
+package com.techouts.cj1;
 public class Operators{
     public static void main(String[] args) {
         int a = 10;

@@ -1,4 +1,4 @@
-package cj3;
+package com.techouts.cj3;
 public class Break {
     public static void main(String[] args) {
         int[] arr = {3, 5, 7, 9};

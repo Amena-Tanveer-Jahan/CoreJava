@@ -1,4 +1,4 @@
-package cj1;
+package com.techouts.cj1;
 public class DataTypes{
     public static void main(String[] args) {
         byte b = 100;

@@ -1,7 +1,4 @@
-package cj4;
-
-import java.util.HashMap;
-import java.util.Map;
+package com.techouts.cj4;
 
 public class Constructor {
 

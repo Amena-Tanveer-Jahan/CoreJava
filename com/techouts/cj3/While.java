@@ -1,4 +1,4 @@
-package cj3;
+package com.techouts.cj3;
 
 public class While{
     public static void main(String[] args) {

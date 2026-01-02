@@ -1,4 +1,4 @@
-package cj4;
+package com.techouts.cj4;
 class Customer {
     String name;
     Customer(String name) {

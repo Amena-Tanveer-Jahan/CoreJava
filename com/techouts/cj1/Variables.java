@@ -1,4 +1,4 @@
-package cj1;
+package com.techouts.cj1;
 
 public class Variables {
     int instanceVariable = 0;

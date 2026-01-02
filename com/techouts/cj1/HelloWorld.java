@@ -1,4 +1,4 @@
-package cj1;
+package com.techouts.cj1;
 
 public class HelloWorld {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package cj4;
+package com.techouts.cj4;
 
 
 public class Static {
