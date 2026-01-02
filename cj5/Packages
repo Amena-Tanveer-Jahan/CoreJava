@@ -1,0 +1,41 @@
+Java follows a reverse domain name convention for package names. This ensures uniqueness and avoids conflicts.
+Rules:
+
+Start with your domain name in reverse:
+
+Example: If your domain is example.com, your base package should be com.example.
+
+Use lowercase letters only:
+
+Package names are case-sensitive; lowercase avoids confusion.
+
+Add project/module name:
+
+Example: com.example.myapp
+
+Add feature-specific sub-packages:
+
+Example: com.example.myapp.service, com.example.myapp.model
+
+Avoid special characters and spaces:
+
+Only letters, digits, and underscores are allowed.
+
+Keep names short and meaningful:
+
+Use descriptive names for clarity
+
+// File: MyPackage/MyClass.java
+package MyPackage; // declare package at top
+
+public class MyClass {
+    public void display() {
+        System.out.println("Hello from MyPackage!");
+    }
+}
+
+Compliation
+
+javac -d . MyClass.java
+
+-d . tells the compiler to create the folder structure for the package.
