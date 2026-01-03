@@ -1,0 +1,25 @@
+
+# Initialize and set remote
+git init
+git remote add origin <repo-url>
+
+# Sync main
+git checkout -b main
+git pull origin main
+
+# Create feature branch
+git checkout -b feature/grade-calculation
+
+# Work & commit
+git status
+git add src/main/java/com/example/app/GradeSwitch.java
+git commit -m "feat(grade): add switch-based grade calculation with score buckets"
+
+# Push and open PR
+git push -u origin feature/grade-calculation
+
+# After review & CI, merge via PR (squash or merge)
+# On local:
+git checkout main
+git pull
+git branch -d feature/grade-calculation

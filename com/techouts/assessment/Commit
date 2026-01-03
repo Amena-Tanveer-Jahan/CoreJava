@@ -1,0 +1,42 @@
+feat(grade): add if-else and switch case calculators
+Type: feat = new feature.
+Scope: grade = the grading module/feature.
+Meaning: You introduced two new implementations for grade calculation (one using if-else, another using switch-case).
+When to use: Any time you add a new user-facing capability.
+
+fix(grade): handle negative score input validation
+Type: fix = bug fix.
+Scope: grade.
+Meaning: You corrected behavior where negative scores were allowed or caused wrong output; now the program validates input and prevents invalid scores.
+When to use: Correcting incorrect behavior.
+
+refactor(grade): extract constants for grade thresholds
+Type: refactor = internal code improvement (no behavior change).
+Scope: grade.
+Meaning: You moved magic numbers (like 60, 70, 80, 90) into named constants, improving readability and maintainability without changing how the program behaves.
+When to use: Cleanups that don’t change functionality.
+
+docs(README): document usage and examples for grading programs
+Type: docs = documentation only.
+Scope: README.
+Meaning: You updated README with instructions, examples, or explanations for using the grading programs.
+When to use: Changes only to documentation (README, Javadoc, wiki)
+
+test(grade): add unit tests for boundary values
+Type: test = tests added/changed.
+Scope: grade.
+Meaning: You added tests for edge/boundary scores (e.g., 0, 59, 60, 69, 70, 79, 80, 89, 90, 91, 100) to ensure the grading logic is correct.
+When to use: Any test-only change.
+
+chore(build): configure CI for Java 21 and enable SonarLint checks
+Type: chore = tooling/maintenance (not source code logic).
+Scope: build.
+Meaning: You changed build/CI setup—e.g., GitHub Actions to use Java 21, and SonarLint/SonarQube integration—without changing application behavior.
+When to use: Changes to build scripts, CI, dependencies, formatting—non-feature work.
+
+
+Tips:
+
+Imperative mood (“add”, “fix”, “refactor”)
+Scope in parentheses
+Keep subject ≤ 72 chars, optional body with context

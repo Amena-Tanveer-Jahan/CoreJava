@@ -1,0 +1,27 @@
+SonarLint is an IDE plugin (for IntelliJ, Eclipse, VS Code, etc.) ,
+that helps developers write clean, maintainable, and bug-free code by analyzing it as you type.
+
+ 1. Real-time Code Analysis
+SonarLint scans your code instantly while you write.
+It highlights bugs, and bad practices before  running the program.
+
+ 2. Enforces Coding Standards
+Proper naming conventions
+Avoiding magic numbers
+Correct access modifiers
+Resource management
+
+ 3. Prevents Common Bugs
+Detects null pointer risks, unused variables, dead code, and unreachable statements.
+
+4. Improves Maintainability
+Flags complex methods, duplicate code, and long classes.
+Suggests refactoring for better readability and maintainability.
+
+ 5. Security Checks
+Identifies SQL injection risks, hardcoded credentials, and other vulnerabilities.
+Helps you write secure code from the start.
+
+6. Integration with SonarQube/SonarCloud
+Syncs with team rules and quality gates.
+Ensures your local code meets the same standards as your CI/CD pipeline.

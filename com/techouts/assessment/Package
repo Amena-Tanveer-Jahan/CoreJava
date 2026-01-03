@@ -1,0 +1,12 @@
+src
+ |
+ | _____ com
+         |
+         |_____ techouts
+                   |
+                   | ______ assessment
+                                |
+                                | ____Abstract.java
+                                | ____Aggregation
+                                | ____Composition
+                                | ____Constructors
