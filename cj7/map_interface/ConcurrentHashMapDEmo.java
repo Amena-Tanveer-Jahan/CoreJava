@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class ConcurrentHashMapDEmo {
-    public static void main(String[] args){
+        public static void main(String[] args){
         ConcurrentHashMap<String,Integer> cmap = new ConcurrentHashMap<>();
         cmap.put("Tanveer",10);
         cmap.put("Amena",20);
